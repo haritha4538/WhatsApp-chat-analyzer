@@ -1,38 +1,46 @@
 # Hack Culprit Virtual Internship - Project Report
 
-## Project Title: [Insert Project Title Here]
+## Project Title: [WhatsApp Chat Analyzer]
 
 ### Submitted by:
-**Name:** [Your Full Name]  
+**Name:*[Haritha Kurada]  
 **Internship Role:** Virtual Intern  
 **Organization:** Hack Culprit  
-**GitHub Profile:** [@yourusername](https://github.com/yourusername)  
-**Project Duration:** [Start Date] – [End Date]  
-**Project Repository:** [GitHub Repo URL]
+**GitHub Profile:** [@haritha4538](https://github.com/haritha4538)  
+**Project Duration:** [01/05/2025] – [31/may/2025]  
+**Project Repository:** [https://github.com/haritha4538/WhatsApp-chat-analyzer]
 
 ---
 
 ## 1. Executive Summary
 
-This document outlines the design, development, and implementation of the project titled **"[Project Title]"**, undertaken as part of the Hack Culprit Virtual Internship. The objective was to build a practical, technically sound solution using modern tools and frameworks. The project enhances key skills such as problem-solving, collaboration through GitHub, and real-world application of theoretical knowledge.
+This document outlines the development of “WhatsApp Chat Analyzer”, a Python-based tool created as part of the Hack Culprit Virtual Internship. The goal was to build a functional utility that analyzes exported WhatsApp chat data to extract useful insights such as most active users and frequently used words. The project emphasizes real-world problem-solving, hands-on coding, GitHub collaboration, and practical implementation of theoretical concepts
+
 
 ---
 
 ## 2. Problem Statement
 
-[Briefly describe the challenge or gap the project addresses.]
+With WhatsApp being a primary communication tool, analyzing large chat histories manually is time-consuming and error-prone. Users often need insights like:
 
-*Example:*  
-In the current digital landscape, users often struggle to securely manage numerous passwords. This project provides a lightweight, user-friendly password manager leveraging secure encryption methods to store credentials locally.
+Who sends the most messages?
+
+What words are used most frequently?
+
+How is the activity distributed?
+
+
+This project solves the above by creating an automatic, lightweight analyzer that processes .txt exported chat files and gives clear statistics.
 
 ---
 
 ## 3. Project Objectives
 
-- To gain practical exposure to full-cycle software development  
-- To apply learned concepts in a real-world scenario  
-- To utilize version control and collaborative tools effectively  
-- To develop a feature-rich application that addresses a real problem  
+- Build a text-based analyzer for WhatsApp .txt chats
+- Gain experience with Python scripting and regular expressions
+- Learn practical use of GitHub, version control, and open-source tools
+- Learn practical use of GitHub, version control, and open-source tools
+
 
 ---
 
@@ -40,10 +48,11 @@ In the current digital landscape, users often struggle to securely manage numero
 
 The project was completed in four key stages:
 
-- **Requirement Analysis & Planning** – Defined scope, tools, and expected outcomes  
-- **Development** – Coded core functionalities using [Tech Stack]  
-- **Testing & Debugging** – Iterative bug fixes and feature validation  
-- **Documentation & Deployment** – Professional README and project structure  
+- **Requirement Analysis & Planning** – Identified the pain point (chat analysis) and defined expected output
+- **Development** – Wrote Python script using regex, collections, and file handling 
+- **Testing & Debugging** – Used multiple .txt exports to ensure various date formats work Prepared README, sample files, and project report
+- **Documentation & Deployment** – Prepared README, sample files, and project report
+
 
 ---
 
@@ -51,10 +60,10 @@ The project was completed in four key stages:
 
 | Category        | Tools / Technologies Used          |
 |----------------|------------------------------------|
-| Programming    | Python, JavaScript, HTML, CSS      |
-| Frameworks     | Flask / React / Bootstrap          |
-| Database       | SQLite / Firebase / MongoDB        |
-| Tools          | Git, GitHub, VS Code, Postman      |
+| Programming    | Python     |
+| Frameworks     | Script-based         |
+| Database       |None(File-based only)       |
+| Tools          | Git, GitHub, VS Code, Pydroid 3     |
 
 ---
 
@@ -64,16 +73,17 @@ To run this project locally, follow the steps below:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/haritha4538/WhatsApp-chat-analyzer.git
 
 # Navigate to the project directory
-cd project-name
+cd WhatsApp-chat-analyzer
 
 # Install dependencies
-pip install -r requirements.txt
+no extra dependencies needed
+make sure your chat file named as "Chat.txt"
 
 # Run the application
-python app.py
+python chat_analyzer.py
 
 > Note: Ensure all required dependencies listed in requirements.txt are installed.
 ```
@@ -81,35 +91,33 @@ python app.py
 
 ## 7. Key Features
 
-Responsive and mobile-friendly interface
+📊 Shows most active participants
 
-Secure login and authentication module
+📝 Lists most used words in the conversation
 
-Real-time functionality with database integration
+📂 Works fully offline — no internet required
 
-Clean codebase with comments and modular structure
+📱 Mobile compatible via Pydroid 3
 
+🔄 Supports all WhatsApp chat formats
 
 
 ---
 
 ## 8. Demonstration
 
-Provide relevant screenshots or a demo video:
-
-
-You can also link to a hosted version or video walkthrough.
+![WhatsApp Image 2025-06-01 at 14 52 17_3716bc41](https://github.com/user-attachments/assets/132416fc-7291-4eb6-b9d1-f21885a08ac5)
 
 
 ---
 
 ## 9. Challenges Encountered
 
-Integrating third-party libraries with minimal documentation
+Handling different date formats (DD/MM/YY vs MM/DD/YY)
 
-Implementing secure authentication and data encryption
+Making it work on mobile without external libraries
 
-Adapting to a new tech stack within limited time
+Ensuring compatibility with all exported WhatsApp formats
 
 
 
@@ -117,13 +125,13 @@ Adapting to a new tech stack within limited time
 
 ## 10. Scope for Future Enhancements
 
-Deploying the project on cloud (e.g., Heroku, Firebase Hosting)
+Graphical analysis (e.g., bar chart of activity)
 
-Adding advanced user settings and preferences
+Emoji and media file tracking
 
-Improving performance and scalability for large datasets
+GUI version using Tkinter or Kivy
 
-Integrating unit testing for better code quality assurance
+Export results to .csv or .pdf
 
 
 
@@ -131,7 +139,7 @@ Integrating unit testing for better code quality assurance
 
 ## 11. Conclusion
 
-This internship project significantly contributed to my technical and professional development. It offered a comprehensive experience in applying theoretical concepts to solve real-world problems while adhering to industry standards in code quality and documentation.
+This project has given me real experience in solving a real-life problem using Python. It strengthened my knowledge of file handling, regex, debugging, and helped me learn about mobile-based scripting using Pydroid 3. I also got more comfortable with GitHub and documenting projects professionally.
 
 
 ---
